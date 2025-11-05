@@ -9,8 +9,8 @@ class fibonacci{
         }
         else{
             
-            return f(n-1)+f(n-2);
+            return f(n-1)+f(n-2);//this is not tail recurssion as f(n-1),f(n-2) are not returning  as the last function call instead  ,it is returning the addition of boththe functions
         
         }
     } 
-}
+} 
